@@ -1,7 +1,8 @@
 from rest_framework import serializers
-from got.models import Test
+from got.models import Products
 
-class TestSerializer(serializers.ModelSerializer):
+
+class ProductsSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Test
+        model = Products
         fields = '__all__'
