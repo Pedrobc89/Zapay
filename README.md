@@ -56,15 +56,11 @@ for p in products:
     imgs = []
     for c in p.descendants:
         if type(c) == bs4.element.Tag:
-            # print(c.name)
             if c.name == 'img':
-                # print(c['src'])
                 imgs.append(c['src'])
             if c.name == 'h2':
-                # print(c.text)
                 name = c.text
             if 'price' in c['class']:
-                # print(c.text)
                 price = c.text
     data = {"name": name, "price": price, "img": imgs[0]}
     requests.post(api, data)
