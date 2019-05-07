@@ -1,0 +1,144 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../scrapper/got/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20190506_2334.py	../scrapper/got/migrations/0002_auto_20190506_2334.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../scrapper/scrapper/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../scrapper/scrapper/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:90
+AppConfig	../scrapper/frontend/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+AppConfig	../scrapper/got/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../scrapper/scrapper/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	../scrapper/scrapper/settings.py	/^DATABASES = {$/;"	kind:variable	line:79
+DEBUG	../scrapper/scrapper/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+FrontendConfig	../scrapper/frontend/apps.py	/^class FrontendConfig(AppConfig):$/;"	kind:class	line:4
+GotConfig	../scrapper/got/apps.py	/^class GotConfig(AppConfig):$/;"	kind:class	line:4
+HTML	../scrapping.py	/^import bs4      # pull data from HTML \/ XML$/;"	kind:namespace	line:2
+INSTALLED_APPS	../scrapper/scrapper/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../scrapper/scrapper/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:109
+MIDDLEWARE	../scrapper/scrapper/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:45
+Meta	../scrapper/got/serializers.py	/^    class Meta:$/;"	kind:class	line:6
+Migration	../scrapper/got/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../scrapper/got/migrations/0002_auto_20190506_2334.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Products	../scrapper/got/api.py	/^from got.models import Products$/;"	kind:namespace	line:1
+Products	../scrapper/got/models.py	/^class Products(models.Model):$/;"	kind:class	line:4
+Products	../scrapper/got/serializers.py	/^from got.models import Products$/;"	kind:namespace	line:2
+ProductsSerializer	../scrapper/got/api.py	/^from .serializers import ProductsSerializer$/;"	kind:namespace	line:3
+ProductsSerializer	../scrapper/got/serializers.py	/^class ProductsSerializer(serializers.ModelSerializer):$/;"	kind:class	line:5
+ProductsViewSet	../scrapper/got/api.py	/^class ProductsViewSet(viewsets.ModelViewSet):$/;"	kind:class	line:8
+ProductsViewSet	../scrapper/got/urls.py	/^from .api import ProductsViewSet$/;"	kind:namespace	line:2
+ROOT_URLCONF	../scrapper/scrapper/settings.py	/^ROOT_URLCONF = 'scrapper.urls'$/;"	kind:variable	line:55
+SECRET_KEY	../scrapper/scrapper/settings.py	/^SECRET_KEY = 'q2p+&%ey0ywag(pwv88mr$0in^yn(o%v67-0+$*%)vgm$!yxj8'$/;"	kind:variable	line:23
+STATIC_URL	../scrapper/scrapper/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:123
+TEMPLATES	../scrapper/scrapper/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:57
+TIME_ZONE	../scrapper/scrapper/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:111
+TestCase	../scrapper/frontend/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+TestCase	../scrapper/got/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../scrapper/scrapper/settings.py	/^USE_I18N = True$/;"	kind:variable	line:113
+USE_L10N	../scrapper/scrapper/settings.py	/^USE_L10N = True$/;"	kind:variable	line:115
+USE_TZ	../scrapper/scrapper/settings.py	/^USE_TZ = True$/;"	kind:variable	line:117
+WSGI_APPLICATION	../scrapper/scrapper/settings.py	/^WSGI_APPLICATION = 'scrapper.wsgi.application'$/;"	kind:variable	line:73
+XML	../scrapping.py	/^import bs4      # pull data from HTML \/ XML$/;"	kind:namespace	line:2
+__init__.py	../scrapper/frontend/__init__.py	1;"	kind:file	line:1
+__init__.py	../scrapper/frontend/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../scrapper/got/__init__.py	1;"	kind:file	line:1
+__init__.py	../scrapper/got/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../scrapper/scrapper/__init__.py	1;"	kind:file	line:1
+actions	../scrapping.py	/^import requests  # mahe http verb actions (get, post, etc)$/;"	kind:namespace	line:1
+admin	../scrapper/frontend/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../scrapper/got/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../scrapper/scrapper/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:16
+admin.py	../scrapper/frontend/admin.py	1;"	kind:file	line:1
+admin.py	../scrapper/got/admin.py	1;"	kind:file	line:1
+api.py	../scrapper/got/api.py	1;"	kind:file	line:1
+application	../scrapper/scrapper/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../scrapper/frontend/apps.py	1;"	kind:file	line:1
+apps.py	../scrapper/got/apps.py	1;"	kind:file	line:1
+bs4	../scrapping.py	/^import bs4      # pull data from HTML \/ XML$/;"	kind:namespace	line:2
+csv	../scrapping.py	/^import csv      #$/;"	kind:namespace	line:3
+data	../scrapping.py	/^            data = {"name": name, "price": price, "img": imgs[0]}$/;"	kind:variable	line:59
+data	../scrapping.py	/^import bs4      # pull data from HTML \/ XML$/;"	kind:namespace	line:2
+dependencies	../scrapper/got/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../scrapper/got/migrations/0002_auto_20190506_2334.py	/^    dependencies = [$/;"	kind:variable	line:8
+etc	../scrapping.py	/^import requests  # mahe http verb actions (get, post, etc)$/;"	kind:namespace	line:1
+execute_from_command_line	../scrapper/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:10
+fields	../scrapper/got/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:16
+fields	../scrapper/got/migrations/0002_auto_20190506_2334.py	/^            fields=[$/;"	kind:variable	line:15
+fields	../scrapper/got/serializers.py	/^        fields = '__all__'$/;"	kind:variable	line:8
+from	../scrapping.py	/^import bs4      # pull data from HTML \/ XML$/;"	kind:namespace	line:2
+get	../scrapping.py	/^import requests  # mahe http verb actions (get, post, etc)$/;"	kind:namespace	line:1
+get_wsgi_application	../scrapper/scrapper/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+http	../scrapping.py	/^import requests  # mahe http verb actions (get, post, etc)$/;"	kind:namespace	line:1
+img	../scrapper/got/models.py	/^    img = models.CharField(max_length=500)$/;"	kind:variable	line:7
+imgs	../scrapping.py	/^            imgs = []$/;"	kind:variable	line:46
+include	../scrapper/scrapper/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:17
+index	../scrapper/frontend/views.py	/^def index(request):$/;"	kind:function	line:3
+initial	../scrapper/got/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:8
+localhost	../scrapping.py	/^        localhost = 'http:\/\/localhost:8000'$/;"	kind:variable	line:27
+mahe	../scrapping.py	/^import requests  # mahe http verb actions (get, post, etc)$/;"	kind:namespace	line:1
+main	../scrapper/manage.py	/^def main():$/;"	kind:function	line:7
+manage.py	../scrapper/manage.py	1;"	kind:file	line:1
+migrations	../scrapper/got/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+migrations	../scrapper/got/migrations/0002_auto_20190506_2334.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+model	../scrapper/got/serializers.py	/^        model = Products$/;"	kind:variable	line:7
+models	../scrapper/frontend/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models	../scrapper/got/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+models	../scrapper/got/migrations/0002_auto_20190506_2334.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+models	../scrapper/got/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../scrapper/frontend/models.py	1;"	kind:file	line:1
+models.py	../scrapper/got/models.py	1;"	kind:file	line:1
+name	../scrapper/frontend/apps.py	/^    name = 'frontend'$/;"	kind:variable	line:5
+name	../scrapper/got/apps.py	/^    name = 'got'$/;"	kind:variable	line:5
+name	../scrapper/got/migrations/0001_initial.py	/^            name='Test',$/;"	kind:variable	line:15
+name	../scrapper/got/migrations/0002_auto_20190506_2334.py	/^            name='Products',$/;"	kind:variable	line:14
+name	../scrapper/got/migrations/0002_auto_20190506_2334.py	/^            name='Test',$/;"	kind:variable	line:23
+name	../scrapper/got/models.py	/^    name = models.CharField(max_length=200)$/;"	kind:variable	line:5
+name	../scrapping.py	/^                        name = c.text$/;"	kind:variable	line:55
+operations	../scrapper/got/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:13
+operations	../scrapper/got/migrations/0002_auto_20190506_2334.py	/^    operations = [$/;"	kind:variable	line:12
+os	../scrapper/manage.py	/^import os$/;"	kind:namespace	line:3
+os	../scrapper/scrapper/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../scrapper/scrapper/wsgi.py	/^import os$/;"	kind:namespace	line:10
+p	../scrapping.py	/^            p = requests.post("http:\/\/localhost:8000\/api\/got\/", data)$/;"	kind:variable	line:61
+path	../scrapper/frontend/urls.py	/^from django.urls import path$/;"	kind:namespace	line:1
+path	../scrapper/scrapper/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:17
+permission_classes	../scrapper/got/api.py	/^    permission_classes = [$/;"	kind:variable	line:10
+permissions	../scrapper/got/api.py	/^from rest_framework import viewsets, permissions$/;"	kind:namespace	line:2
+post	../scrapping.py	/^import requests  # mahe http verb actions (get, post, etc)$/;"	kind:namespace	line:1
+price	../scrapper/got/models.py	/^    price = models.CharField(max_length=10)$/;"	kind:variable	line:6
+price	../scrapping.py	/^                        price = c.text$/;"	kind:variable	line:58
+products	../scrapping.py	/^        products = soup.select('.product')$/;"	kind:variable	line:40
+products_output	../scrapping.py	/^        products_output = []$/;"	kind:variable	line:44
+pull	../scrapping.py	/^import bs4      # pull data from HTML \/ XML$/;"	kind:namespace	line:2
+queryset	../scrapper/got/api.py	/^    queryset = Products.objects.all()$/;"	kind:variable	line:9
+render	../scrapper/frontend/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+render	../scrapper/got/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+requests	../scrapping.py	/^import requests  # mahe http verb actions (get, post, etc)$/;"	kind:namespace	line:1
+res	../scrapping.py	/^        res = requests.get(site)$/;"	kind:variable	line:30
+router	../scrapper/got/urls.py	/^router = routers.DefaultRouter()$/;"	kind:variable	line:4
+routers	../scrapper/got/urls.py	/^from rest_framework import routers$/;"	kind:namespace	line:1
+scrapping.py	../scrapping.py	1;"	kind:file	line:1
+serializer_class	../scrapper/got/api.py	/^    serializer_class = ProductsSerializer$/;"	kind:variable	line:13
+serializers	../scrapper/got/serializers.py	/^from rest_framework import serializers$/;"	kind:namespace	line:1
+serializers.py	../scrapper/got/serializers.py	1;"	kind:file	line:1
+settings.py	../scrapper/scrapper/settings.py	1;"	kind:file	line:1
+site	../scrapping.py	/^        site = 'https:\/\/nerdstore.com.br\/categoria\/especias\/game-of-thrones\/'$/;"	kind:variable	line:26
+soup	../scrapping.py	/^        soup = bs4.BeautifulSoup(res.text, 'lxml')  # parses data through lxml$/;"	kind:variable	line:37
+sys	../scrapper/manage.py	/^import sys$/;"	kind:namespace	line:4
+tests.py	../scrapper/frontend/tests.py	1;"	kind:file	line:1
+tests.py	../scrapper/got/tests.py	1;"	kind:file	line:1
+urlpatterns	../scrapper/frontend/urls.py	/^urlpatterns ={$/;"	kind:variable	line:4
+urlpatterns	../scrapper/got/urls.py	/^urlpatterns = router.urls$/;"	kind:variable	line:7
+urlpatterns	../scrapper/scrapper/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../scrapper/frontend/urls.py	1;"	kind:file	line:1
+urls.py	../scrapper/got/urls.py	1;"	kind:file	line:1
+urls.py	../scrapper/scrapper/urls.py	1;"	kind:file	line:1
+verb	../scrapping.py	/^import requests  # mahe http verb actions (get, post, etc)$/;"	kind:namespace	line:1
+views	../scrapper/frontend/urls.py	/^from . import views$/;"	kind:namespace	line:2
+views.py	../scrapper/frontend/views.py	1;"	kind:file	line:1
+views.py	../scrapper/got/views.py	1;"	kind:file	line:1
+viewsets	../scrapper/got/api.py	/^from rest_framework import viewsets, permissions$/;"	kind:namespace	line:2
+writeOutputCSV	../scrapping.py	/^def writeOutputCSV(f, data):$/;"	kind:function	line:6
+wsgi.py	../scrapper/scrapper/wsgi.py	1;"	kind:file	line:1
